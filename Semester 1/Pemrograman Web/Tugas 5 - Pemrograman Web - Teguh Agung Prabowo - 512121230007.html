@@ -1,0 +1,282 @@
+<!-- ==================================== 
+Author: Teguh Agung Prabowo
+NIM: 512121230007
+Major: Sistem Informasi
+Mata Kuliah: Pemrograman Web
+TimeStamp: 21 Oktober 2021 19:50:00
+=========================================-->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <title>Tugas ke 5 - Pemrograman Web - Teguh Agung Prabowo</title>
+
+    <style>
+        .success-form {
+            border: 1px solid green;
+        }
+    </style>
+</head>
+
+<body>
+    <table id="target-table" class="table table-hover table-striped table-bordered" border="2">
+        <thead>
+            <tr>
+                <td class="text-center" rowspan="2">#</td>
+                <td class="text-center" rowspan="2">Kode Mata Anggaran</td>
+                <td class="text-center" rowspan="2">Jenis Anggaran</td>
+                <td class="text-center" rowspan="2">Nama Paket Pekerjaan</td>
+                <td class="text-center" colspan="2">Status</td>
+                <td class="text-center" rowspan="2">Jenis PBJ</td>
+                <td class="text-center" rowspan="2">Kode Belanja Barang / Modal</td>
+                <td class="text-center" colspan="2">Target Akhir</td>
+            </tr>
+            <tr>
+                <td class="text-center">Tahapan</td>
+                <td class="text-center">Keterangan</td>
+                <td class="text-center">Volume (Jumlah)</td>
+                <td class="text-center">Satuan</td>
+            </tr>
+        </thead>
+        <tbody id="target-table-body">
+            <tr id="tr-141" role="row" class="odd">
+                <td class="text-center sorting_1">1</td>
+                <td class="text-center  ">5978.963.001.051.A.525114</td>
+                <td class="text-center  ">PNBP</td>
+                <td class="text-center  ">Perpanjangan Annual Technical Support Mail Server BP Batam [1 PAKET x 1 KALI]</td>
+                <td class="text-center input-tahapan ">Persiapan</td>
+                <td class="text-center input-keterangan_tahapan ">Testing 1</td>
+                <td class="text-center  ">Belanja Pemeliharaan</td>
+                <td class="text-center ">525114 - Belanja Pemeliharaan</td>
+                <td class="text-center  ">1</td>
+                <td class="text-center  ">Layanan</td>
+            </tr>
+            <tr id="tr-182" role="row" class="even">
+                <td class="text-center sorting_1">2</td>
+                <td class="text-center  ">5978.963.001.051.B.525114</td>
+                <td class="text-center  ">PNBP</td>
+                <td class="text-center  ">Preventive Maintenance Aplikasi BSW BP Batam [1 KALI x 1 LS]</td>
+                <td class="text-center input-tahapan "></td>
+                <td class="text-center input-keterangan_tahapan "></td>
+                <td class="text-center  ">Belanja Pemeliharaan</td>
+                <td class="text-center ">525114 - Belanja Pemeliharaan</td>
+                <td class="text-center  ">1</td>
+                <td class="text-center  ">kegiatan</td>
+            </tr>
+            <tr id="tr-201" role="row" class="odd">
+                <td class="text-center sorting_1">3</td>
+                <td class="text-center  ">5978.963.001.051.B.525114</td>
+                <td class="text-center  ">PNBP</td>
+                <td class="text-center  ">- Preventive Maintenance Aplikasi Portal dan eadmin Mobile BP Batam [1 kali x 1 ls]</td>
+                <td class="text-center input-tahapan "></td>
+                <td class="text-center input-keterangan_tahapan "></td>
+                <td class="text-center  ">Belanja Pemeliharaan</td>
+                <td class="text-center ">525114 - Belanja Pemeliharaan</td>
+                <td class="text-center  ">1</td>
+                <td class="text-center  ">kegiatan</td>
+            </tr>
+            <tr id="tr-181" role="row" class="even">
+                <td class="text-center sorting_1">4</td>
+                <td class="text-center  ">5978.963.001.051.B.525114</td>
+                <td class="text-center  ">PNBP</td>
+                <td class="text-center  ">Preventive Maintenance Aplikasi ebudgeting BP Batam [1 KALI x 1LS]</td>
+                <td class="text-center input-tahapan "></td>
+                <td class="text-center input-keterangan_tahapan "></td>
+                <td class="text-center  ">Belanja Pemeliharaan</td>
+                <td class="text-center ">525114 - Belanja Pemeliharaan</td>
+                <td class="text-center  ">1</td>
+                <td class="text-center  ">kegiatan</td>
+            </tr>
+            <tr id="tr-242" role="row" class="odd">
+                <td class="text-center sorting_1">5</td>
+                <td class="text-center  ">5978.963.001.051.N.525114</td>
+                <td class="text-center  ">PNBP</td>
+                <td class="text-center  ">Perpanjangan Lisensi End Point Security</td>
+                <td class="text-center input-tahapan "></td>
+                <td class="text-center input-keterangan_tahapan "></td>
+                <td class="text-center  ">Belanja Pemeliharaan</td>
+                <td class="text-center ">525114 - Belanja Pemeliharaan</td>
+                <td class="text-center  ">1</td>
+                <td class="text-center  ">Kegiatan</td>
+            </tr>
+            <tr id="tr-221" role="row" class="even">
+                <td class="text-center sorting_1">6</td>
+                <td class="text-center  ">5978.EAJ.001.051.A.525114</td>
+                <td class="text-center  ">PNBP</td>
+                <td class="text-center  ">Perpanjangan Annual Technical Support Mail Server BP Batam [1 PAKET x 1 KALI]</td>
+                <td class="text-center input-tahapan "></td>
+                <td class="text-center input-keterangan_tahapan "></td>
+                <td class="text-center  ">Belanja Pemeliharaan</td>
+                <td class="text-center ">525114 - Belanja Pemeliharaan</td>
+                <td class="text-center  ">1</td>
+                <td class="text-center  ">Layanan</td>
+            </tr>
+            <tr id="tr-241" role="row" class="odd">
+                <td class="text-center sorting_1">7</td>
+                <td class="text-center  ">5978.963.001.051.H.525114</td>
+                <td class="text-center  ">PNBP</td>
+                <td class="text-center  ">Perpanjangan ATS Software BP Batam [1 PAKET x 1 KALI]</td>
+                <td class="text-center input-tahapan "></td>
+                <td class="text-center input-keterangan_tahapan "></td>
+                <td class="text-center  ">Belanja Pemeliharaan</td>
+                <td class="text-center ">525114 - Belanja Pemeliharaan</td>
+                <td class="text-center  ">10</td>
+                <td class="text-center  ">kegiatan</td>
+            </tr>
+        </tbody>
+    </table>
+    <br>
+    <br>
+    <br>
+    <br>
+
+
+    <div class="row">
+        <div class="col-12">
+            <div class="card card-content-add-wrapper">
+                <div class="card-body">
+                    <h4 class="card-content-title mb-5">Tambah User</h4>
+
+                    <form action="#" id="formAddUser" class="form-silk" method="POST" ajax="true">
+                        <div class="row">
+                            <div class="col-lg-5 col-md-6 col-sm-12">
+                                <div class="row">
+                                    <div class="col-lg-12 col-md-12">
+                                        <div class="form-group">
+                                            <label for="" class="label-form">Email</label>
+
+                                            <!-- css inline -->
+                                            <input type="text" name="email" id="email" class="form-control" placeholder="Masukkan email" style="border: 1px solid red;">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-6 col-md-6 col-sm-12">
+                                <div class="row">
+                                    <div class="col-lg-10 col-md-12">
+                                        <div class="form-group">
+                                            <label for="" class="label-form">Password</label>
+                                            <input type="password" name="password" id="password" class="form-control" placeholder="Masukkan password">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-lg-5 col-md-6 col-sm-12">
+                                <div class="row">
+                                    <div class="col-lg-12 col-md-12">
+                                        <div class="form-group">
+                                            <label for="" class="label-form">Nama Depan</label>
+                                            <input type="text" name="first_name" id="first_name" class="form-control success-form" placeholder="Masukkan nama depan">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-6 col-md-6 col-sm-12">
+                                <div class="row">
+                                    <div class="col-lg-10 col-md-12">
+                                        <div class="form-group">
+                                            <label for="" class="label-form">Nama Belakang</label>
+                                            <input type="text" name="last_name" id="last_name" class="form-control" placeholder="Masukkan nama belakang">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-lg-5 col-md-6 col-sm-12">
+                                <div class="row">
+                                    <div class="col-lg-12 col-md-12">
+                                        <div class="form-group">
+                                            <label for="" class="label-form">Nomor Handphone</label>
+                                            <input type="text" name="no_hp" id="no_hp" class="form-control" placeholder="Masukkan nomor handphone">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-6 col-md-6 col-sm-12">
+                                <div class="row">
+                                    <div class="col-lg-10 col-md-12">
+                                        <div class="form-group">
+                                            <label for="" class="label-form">NIP</label>
+                                            <input type="text" name="nip" id="nip" class="form-control" placeholder="Masukkan nip">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-lg-5 col-md-6 col-sm-12">
+                                <div class="row">
+                                    <div class="col-lg-12 col-md-12">
+                                        <div class="form-group">
+                                            <label for="" class="label-form">Jabatan</label>
+                                            <input type="text" name="jabatan" id="jabatan" class="form-control" placeholder="Masukkan jabatan">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-6 col-md-6 col-sm-12">
+                                <div class="row">
+                                    <div class="col-lg-10 col-md-12">
+                                        <div class="form-group" id="select2Error">
+                                            <label for="" class="label-form">Role</label>
+                                            <select name="role" id="role" class="select2 form-control">
+                                                <option value="">--Pilih Role--</option>
+                                                <option value="1">Dosen</option>
+                                                <option value="2">Mahasiswa</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-lg-5 col-md-6 col-sm-12">
+                                <div class="row">
+                                    <div class="col-lg-12 col-md-12">
+                                        <div class="form-group">
+                                            <label for="" class="label-form">Alamat</label>
+                                            <textarea class="form-control" name="alamat" id="alamat" rows="4" placeholder="Masukkan alamat"></textarea>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-lg-10 col-md-12">
+                                <button type="button" class="btn btn-primary btn-block m-2" id="submitBtn">Simpan</button>
+                                <button type="button" class="btn btn-primary btn-block m-2 change-color">Click Me</button>
+                            </div>
+                        </div>
+                    </form>
+                    <h1 id="title"></h1>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+<script>
+    let input = document.querySelector('input').style.background = 'tomato';
+    var button = document.getElementsByClassName("change-color")
+
+    var myFunction = function() {
+        alert("Hello World");
+    };
+
+    for (var i = 0; i < button.length; i++) {
+        button[i].addEventListener('click', myFunction, false);
+    }
+
+    document.getElementById("submitBtn").addEventListener("click", function() {
+        document.getElementById("title").innerHTML = "Hello World";
+    });
+</script>
+</html>

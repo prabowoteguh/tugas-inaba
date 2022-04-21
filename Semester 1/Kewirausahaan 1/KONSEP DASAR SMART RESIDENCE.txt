@@ -1,0 +1,12 @@
+*SMART RESIDENCE*
+Smart Residence adalah sebuah terobosan terbaru bagi penghuni KPR atau apartement. Dengan adanya aplikasi ini diharapkan penghuni dan pengelola Cluster atau Apartement dapat lebih mudah dalam melakukan pembayaran iuran maupun tagihan perbulan dalam cluster. Selain itu, pihak pengelola dapat dengan mudah menyalurkan informasi atau broadcast message kepada penghuni cluster secara global maupun per individu.
+
+*Latar Belakang:*
+Semakin banyak nya KPR dan rumah-rumah hunian di kota-kota besar maupun kabupaten, akan lebih sulit dalam pengelolaan cluster dan pembayaran yang harus ditagihkan, dengan adanya smart residence semua bisa terintegrasi dalam satu aplikasi saja
+
+*Lahirnya ide bisnis:*
+Pada perumahan biasanya dibentuk sebuah organisasi kecil terdapat pemimpin seperti ketua RT dan pengelola atau developer dari KPR tersebut. Peran Ketua RT dalam mengorganisir kegiatan yang ada di lingkungannya sangat diperlukan, selain itu perannya juga sangat diperlukan untuk mempercepat akses pelayanan dan efektivitas pelaksanaan kegiatan warga nya. Peranan lain dari Ketua RT dalam memberikan pelayanan kepada masyarakatnya yaitu memberikan informasi-informasi yang berhubungan dengan masyarakat yang bersifat umum, mengatur masalah keamanan, dan juga kebersihan di dalam lingkungannya.
+
+Di sisi lain, kewajiban warga dalam perumahan juga mempengaruhi proses bisnis dalam perumahan terssebut, seperti biaya keamanan, biaya kebersihan, biaya parkir jika dalam perumahan ada akses gate untuk masuk kedalam perumahan tersebut, dan lain sebagainya. Dalam ruang lingkup kemasyarakatan, warga juga berhak untuk menyampaikan aspirasi atas segala sesuatu yang terjadi di lingkungan perumahan, akan tetapi dalam implementasinya masyarakat tidak memiliki sarana untuk menyampaikan aspirasi secara lebih detail karena terkendala waktu dan hubungan antar masyarakat.
+
+Oleh sebab itu, dari terciptanya masalah ini, kami membuat penelitian tentang perancangan aplikasi smart residence yang diharapkan dapat membantu dan menyederhanakan proses bisnis didalam sebuah cluster perumahan.
