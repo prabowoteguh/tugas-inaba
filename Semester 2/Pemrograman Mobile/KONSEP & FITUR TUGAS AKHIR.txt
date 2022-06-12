@@ -1,0 +1,39 @@
+EVENT ORG
+
+1. REGISTER & LOGIN (2 ROLE) => USER & EO
+
+
+USER 
+LIST EVENT=> SEARCH
+NEWS
+
+- DAFTAR EVENT
+- KETERANGAN
+- KLIK DAFTAR => konfirmasi
+- Absen
+
+MY EVENT
+- Klik event
+- keterangan
+- check in (scan qrcode)
+- muncul pesan anda telah check in
+
+EO
+BUAT EVENT
+- nama event, tanggal, waktu, description, banner, tempat
+- klik submit
+
+MY EVENT
+- klik event
+- keterangan
+- edit event
+- dibawah ket monitoring acara
+  - count check in
+  - belum check in
+  - button show qr code
+
+EDIT EVENT
+- mirip seperti buat event
+
+
+LOGOUT
